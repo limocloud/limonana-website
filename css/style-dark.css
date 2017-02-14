@@ -452,7 +452,7 @@ select {
 	line-height: 22px;
 }
 .jBar .button{
-	float: right;
+	float: left;
 }
 
 
@@ -571,8 +571,9 @@ nav{
 }
 .sf-menu > li{
 	position: relative;
-	float:left;	
-	list-style: none;	
+	float:left;
+	list-style: none;
+
 }
 .sf-menu > li > a {
 	text-decoration:none;
@@ -597,12 +598,13 @@ nav{
 	border-left: 15px solid transparent;
 	border-right: 15px solid transparent;
 }
-.sf-menu li:hover ul,.sf-menu li.sfHover ul{top:76px; border:solid #ddd 1px; border-right:0; border-bottom: 0; left:20px; z-index:999;}
+.sf-menu li:hover ul,.sf-menu li.sfHover ul{top:76px; border:solid #ddd 1px; border-right:0; border-bottom: 0; right:0px; z-index:999;}
 .sf-menu li:hover li ul,ul.sf-menu li.sfHover li ul{top:-999em}
 .sf-menu li.current,.sf-menu li:hover,.sf-menu li.sfHover{
 	text-decoration:none;
 }
 .sf-menu li li a{
+	text-align: right;
 	display:block;
 	margin:0;
 	position:relative;
