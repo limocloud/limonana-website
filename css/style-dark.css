@@ -437,7 +437,7 @@ select {
 }
 .jBar ul li{
 	padding-bottom: 20px;
-	text-align: right;
+	text-align: left;
 }
 .jBar ul li a{
 	color: #fff;
@@ -445,7 +445,8 @@ select {
 .jBar ul li span{	
 	font-size: 18px;
 	margin: 0;
-	float: left;
+	float: right;
+	direction: rtl;
 	padding: 0;
 	margin-right: 10%;
 	line-height: 22px;
