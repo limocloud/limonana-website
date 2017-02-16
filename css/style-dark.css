@@ -582,7 +582,7 @@ nav{
 	padding:26px 16px !important;		
 }
 .sf-menu > li.menu-item:last-child > a {
-	padding-right: 0 !important;	
+
 }
 .sf-menu > li.current-menu-item > a,
 .sf-menu > li.current-menu-ancestor > a{
