@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="68dd29c4-24f6-42ee-aead-adeb0e3848a7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-dark.css" afterPath="$PROJECT_DIR$/css/style-dark.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/extra-codes/header-admin.php" afterPath="$PROJECT_DIR$/inc/extra-codes/header-admin.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -102,8 +100,8 @@
       <file leaf-file-name="style-dark.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style-dark.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="1195" column="19" lean-forward="false" selection-start-line="1195" selection-start-column="19" selection-end-line="1195" selection-end-column="19" />
+            <state relative-caret-position="42">
+              <caret line="1182" column="1" lean-forward="true" selection-start-line="1182" selection-start-column="1" selection-end-line="1182" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -408,7 +406,7 @@
       <workItem from="1487065144482" duration="841000" />
       <workItem from="1487067076379" duration="10390000" />
       <workItem from="1487228282401" duration="659000" />
-      <workItem from="1487574663435" duration="14573000" />
+      <workItem from="1487574663435" duration="15207000" />
     </task>
     <task id="LOCAL-00001" summary="Slider support header RTL">
       <created>1487072418531</created>
@@ -452,11 +450,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487591193706</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Almost fully ready">
+      <created>1487599589069</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1487599589069</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31561000" />
+    <option name="totallyTimeSpent" value="32195000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -494,7 +499,8 @@
     <MESSAGE value="Slider support header RTL" />
     <MESSAGE value="menu and header ready" />
     <MESSAGE value="menu header slider footer ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="menu header slider footer ready" />
+    <MESSAGE value="Almost fully ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="Almost fully ready" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -903,8 +909,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style-dark.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="1195" column="19" lean-forward="false" selection-start-line="1195" selection-start-column="19" selection-end-line="1195" selection-end-column="19" />
+        <state relative-caret-position="42">
+          <caret line="1182" column="1" lean-forward="true" selection-start-line="1182" selection-start-column="1" selection-end-line="1182" selection-end-column="1" />
           <folding />
         </state>
       </provider>
