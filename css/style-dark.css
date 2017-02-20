@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
 	width: 100%;
 }
 .text_right{
-	text-align: right;
+
 }
 .center{
 	text-align: center;
@@ -648,6 +648,9 @@ nav{
 	z-index: 999999;
 	width: 100%;
 }
+.search_domain .col-md-3{
+	float: right;
+}
 .is-sticky{
 	left: 0;
 	width: 100%;
@@ -667,6 +670,7 @@ nav{
 }
 .arrow_domain{
 	position: relative;
+	float: right;
 }
 .arrow_domain:before{
   	content: '';
@@ -723,6 +727,11 @@ nav{
 .info_content{
   position: relative;
   width: 100%;
+	direction: rtl;
+}
+.info_content .col-md-5{
+	float: right;
+	text-align: right;
 }
 .border_top{
 	border-top: 1px solid #444;	
@@ -797,6 +806,11 @@ audio, canvas, video {
 	margin-bottom: 40px;	
 }
 .head_feature{
+	margin-bottom: 15px;
+}
+.head_feature .col-md-2{
+	float: right;
+}{
 	margin-bottom: 15px;
 }
 .head_feature img{
@@ -1050,6 +1064,7 @@ audio, canvas, video {
 
 .footer_top{
 	padding: 40px 0;
+	direction: rtl;
 }
 .footer_top h2{
 	margin-bottom: 5px;
@@ -1119,9 +1134,11 @@ ul.contact_footer li{
 }
 ul.contact_footer li i{
 	padding-right: 10px;
+	padding-left: 5px;
 }
 ul.contact_footer li a{
 	padding-left: 5px;
+	float: left;
 }
 
 /* Footer Down --------------------------------------------*/
@@ -1130,6 +1147,10 @@ ul.contact_footer li a{
 	background-color: #232323;
 	color: #fff;
 	padding: 15px 0;
+}
+.footer_down .col-md-8{
+	float: right;
+	text-align: right;
 }
 .footer_down p{
 	margin: 0;
@@ -1144,6 +1165,7 @@ ul.contact_footer li a{
 	list-style: none;
 	display: inline-block;
 	margin:0 4% 0 0;
+	float: right;
 }
 .footer_down .nav_footer li a{
 	color: #fff;
@@ -1283,6 +1305,7 @@ ul.social_team{
 }
 .contact p{
   margin:0 0 10px 0;
+  direction: rtl;
 }
 .contact textarea{
 	height: 150px;
@@ -1948,7 +1971,7 @@ aside #sidebar .widget.widget_rss ul {
     color: #FFFFFF;
 }
 .widget input[type="text"]{
-  width: 100%;
+  width: 82%;
   height: 34px;
   padding: 6px 12px;
   font-size: 14px;

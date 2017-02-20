@@ -58,3 +58,7 @@ Alignments
 	display: block !important;
 	margin: 0 auto !important;
 }
+
+.fullwidthbanner-container{
+	direction: rtl;
+}
