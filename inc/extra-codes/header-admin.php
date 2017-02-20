@@ -16,12 +16,13 @@
     <section class="section_title"style="background-image: url('<?php echo $maison_img;?>');">
       	<div class="overlay_title"></div>
         <div class="container">
+            <div class="col-md-4">
+                <div class="breadcrumb_section">
+                    <?php the_breadcrumb(); ?>
+                </div>
+            </div>
             <div class="row">
-              		<div class="col-md-4">
-                    	<div class="breadcrumb_section">
-		                  		<?php the_breadcrumb(); ?>  
-                      </div>
-                  </div>
+
               
               
               		<div class="col-md-8">
